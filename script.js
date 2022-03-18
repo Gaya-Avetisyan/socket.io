@@ -18,7 +18,7 @@ function main() {
     input.value = "";
   }
 
-  socket.on("display message", handleMessage);
+  socket.on("display message", handleMessage); //ay stex anuma vortev tesav
 } // main closing bracket
 
 window.onload = main;
